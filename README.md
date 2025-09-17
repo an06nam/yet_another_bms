@@ -7,7 +7,7 @@ for home applience such as desktop, etc.
 
 1. Board Design and Prototyping [ On Going ]
 
-2. STM32F401CCU6 Firmware
+2. STM32F411 Firmware
 
 | Task | Status |
 | ---- | ------ |
@@ -17,12 +17,15 @@ for home applience such as desktop, etc.
 | I2C log to ESP32-C3 | On Going |
 | CAN Communication | To Do |
 
-2. STM32F401CCU6 Firmware
+2. ESP32-C3 Firmware
 
 | Task | Status |
 | ---- | ------ |
-| Charge & Discharge Control | To Do |
-| Monitoring Battery Condition using BQ79616 | To Do |
-| Write Log to MicroSD Card | To Do |
-| I2C log to ESP32-C3 | To Do |
+| MQTT Communication | To Do |
+| WIFI PROVISIONING (ESP-Nimble) | To Do |
+| I2C Communication to STM32 | To Do |
 | CAN Communication | To Do |
+| I2C OLED LCD Module | To Do |
+| GPIO | ToDo |
+| DMA | ToDo |
+
