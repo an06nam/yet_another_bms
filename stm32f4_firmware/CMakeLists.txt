@@ -51,7 +51,7 @@ target_compile_options(${PROJECT_NAME}.elf PRIVATE
 
 # Defines / preprocessors macros
 target_compile_definitions(${PROJECT_NAME}.elf PRIVATE
-  STM32F411xE
+  STM32F4xE
   USE_FULL_LL_DRIVER
 )
 

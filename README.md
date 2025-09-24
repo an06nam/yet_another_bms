@@ -1,7 +1,10 @@
 # yet_another_bms
-Just yet another BMS project. The bms it self will be design specific to handle
-lithium ion battery/Li-Ion. For I will aim to develop typical UPS (uninteruptable Power Supply)
-for home applience such as desktop, etc.
+
+This Project is aim to develop bms for 16s LiFePO4 battery configuration.
+The BMS will have the following features :
+ - CAN bus interface to talk to charger and ESC (Electronics Speed Control) for BLDC load
+ - Bluetooth and WIFI connection for further analysis of the battery ( Optional on Compilation )
+ - 
 
 ## To Do
 
