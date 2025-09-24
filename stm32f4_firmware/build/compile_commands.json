@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/src/main.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/main.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/main.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/src/main.c.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/src/noinit.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/noinit.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/noinit.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/src/noinit.c.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/src/system_stm32f4xx.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/system_stm32f4xx.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/src/system_stm32f4xx.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/src/system_stm32f4xx.c.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c.obj"
+},
+{
+  "directory": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F411xE -DUSE_FULL_LL_DRIVER -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Include -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-f4/Source/Templates -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Inc -I/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/cmsis-core/Include -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g -Wall -ffunction-sections -fdata-sections -o CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c.obj -c /home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c",
+  "file": "/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c",
+  "output": "CMakeFiles/yet_another_bms_firmware.elf.dir/lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c.obj"
+}
+]
