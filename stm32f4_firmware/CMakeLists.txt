@@ -26,9 +26,9 @@ include_directories(
 # Source files
 set(SOURCES
   src/main.c
-  src/noinit.c
-  src/system_stm32f4xx.c
-  lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s
+  utils/noinit.c
+  utils/system_stm32f4xx.c
+  utils/startup_stm32f411xe.s
   lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c
   lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c
   lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c
@@ -57,7 +57,7 @@ target_compile_definitions(${PROJECT_NAME}.elf PRIVATE
 
 # Linker script
 target_link_options(${PROJECT_NAME}.elf PUBLIC
-  "-T${CMAKE_CURRENT_SOURCE_DIR}/utils/startup/linker.ld"
+  "-T${CMAKE_CURRENT_SOURCE_DIR}/utils/linker.ld"
   "-Wl,-Map=${PROJECT_NAME}.map"
   "-Wl,--gc-sections"
 )

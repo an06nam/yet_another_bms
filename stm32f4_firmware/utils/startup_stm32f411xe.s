@@ -1,0 +1,1 @@
+../lib/cmsis-f4/Source/Templates/gcc/startup_stm32f411xe.s
