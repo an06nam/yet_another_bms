@@ -1,3 +1,0 @@
-/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build/CMakeFiles/yet_another_bms_firmware.elf.dir
-/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build/CMakeFiles/edit_cache.dir
-/home/user/Projects/personal-project/yet_another_bms/stm32f4_firmware/build/CMakeFiles/rebuild_cache.dir
