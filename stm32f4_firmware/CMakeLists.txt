@@ -26,12 +26,22 @@ include_directories(
 # Source files
 set(SOURCES
   src/main.c
-  utils/noinit.c
+  # use for excluding system headers during compilation
+  utils/noinit.c                  
+  
+  # Memory Map & Register
   utils/system_stm32f4xx.c
+
+  # Startup file
   utils/startup_stm32f411xe.s
+    
+  # STM32 LL DRIVER
   lib/stm32f4-hal/Src/stm32f4xx_ll_gpio.c
   lib/stm32f4-hal/Src/stm32f4xx_ll_rcc.c
   lib/stm32f4-hal/Src/stm32f4xx_ll_utils.c
+
+  # FreeRTOS
+
 )
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES})
@@ -43,16 +53,17 @@ target_compile_options(${PROJECT_NAME}.elf PRIVATE
   -mthumb
   -mfpu=fpv4-sp-d16
   -mfloat-abi=hard
-  -g
+  -g                  # change to -O2 during production to reduce binary size
   -Wall
+  -Wextra             # enable this to get more warnings
   -ffunction-sections
   -fdata-sections
 )
 
 # Defines / preprocessors macros
 target_compile_definitions(${PROJECT_NAME}.elf PRIVATE
-  STM32F4xE
-  USE_FULL_LL_DRIVER
+  STM32F411xE         # macro from stm32f4xx.h files
+  USE_FULL_LL_DRIVER  # Use ST Low Level Driver
 )
 
 # Linker script
@@ -62,13 +73,12 @@ target_link_options(${PROJECT_NAME}.elf PUBLIC
   "-Wl,--gc-sections"
 )
 
-# Optionally, after build produce .bin / .hex
 add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.bin
     COMMAND ${CMAKE_OBJCOPY} -O ihex   $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.hex
 )
 
-## Optionally a “flash” target using OpenOCD or ST‑link
+## “Flash” target using OpenOCD or ST‑link
 #find_program(OPENOCD openocd)
 #if(OPENOCD)
 #    add_custom_target(flash

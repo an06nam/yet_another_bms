@@ -34,6 +34,3 @@ set(CMAKE_EXE_LINKER_FLAGS "-nostdlib -Wl,--gc-sections --specs=nosys.specs")
 message(STATUS "[toolchain] prefix=${TOOLCHAIN_PREFIX}")
 message(STATUS "[toolchain] c compiler=${CMAKE_C_COMPILER}")
 message(STATUS "[toolchain] objcopy=${CMAKE_OBJCOPY}")
-
-# End of simple toolchain file
-
