@@ -10,7 +10,7 @@ The BMS will have the following features :
 
 1. Board Design and Prototyping [ On Going ]
 
-2. STM32F411 Firmware
+2. STM32F411RET6 Firmware
 
 | Task | Status |
 | ---- | ------ |
