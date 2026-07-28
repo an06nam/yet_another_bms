@@ -1,4 +1,4 @@
-# yet_another_bms
+# BeeMes
 
 This Project is aim to develop bms for 16s LiFePO4 battery configuration.
 The BMS will have the following features :
